@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>New Employee </h1>
+    <form>
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Enter Name</span>
+          <input type="text" id="name" name="name" />
+
+        </div>
+        <div class="input-box">
+          <span class="details">Enter Profession</span>
+          <input type="text" id="profession" name="profession" />
+
+        </div>
+        <div class="input-box">
+
+          <span class="details">Enter Age</span>
+          <input type="number" id="age" name="age" />
+        </div>
+      </div>
+
+      <button type="submit" id="add-employee-button">Add Users</button>
+    </form>
+
+
+    <div class="error" id="error-message"></div>
+    <div class="success" id="success-message"></div>
+    <h2>Added Employees</h2>
+
+    <div id="added-employees">You have 0 Employees.</div>
+
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

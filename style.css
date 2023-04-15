@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .container {
+    margin: 20px 50px;
+  }
+
+  .container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 10%);
+  }
+
+  .user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+
+  .user-details .input-box input {
+    height: 35px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: lightgrey;
+    background-color: black;
+    padding-left: 15px;
+    font-size: 16px;
+
+  }
+
+  button {
+    font-weight: bold;
+    height: 35px;
+    width: 100px;
+    margin: 40px 40px 40px 0px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  .error{
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  .success {
+    color: green;
+    margin-bottom: 10px;
+  }
+
+  .employee-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 55%;
+    gap: 30px;
+    height: 62px;
+    font-size: 15px;
+  }
+
+  .delete-employee-button {
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 83px;
+    margin-top: 40px;
+
+  }
+
+  #added-employees {
+    color: rgb(102, 100, 96);
+  }
